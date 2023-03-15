@@ -1,27 +1,42 @@
 /* style.css*/
 
+body {
+    margin: 0;
+    background: #1f2937;
+}
+
 .header {
     background: #1f2937;
-    display: flex; 
-
+    display: flex;
 }
 
 .logo {
     font-weight:bold;
     color: #f9faf8 ;
-    font-size: 24px;
+    font-size: 12px;
+    display: flex;
     flex-grow: 2;
+    margin-left: 100px;
+    align-items: center;
 }
 
 ul {
-    list-style-type: none;
+    
+    list-style-type: none; /* this removes the dot next to ours items */
     display: flex;
     gap: 30px;
     color: #f9faf8;
+    align-items: center;
 }
 
 .upleft {
     display: flex;
     margin:24px;
-    margin-right: 50px;
+    margin-right: 150px;
+}
+
+a {
+    
+    text-decoration: none; /* this removes the line under our links */
+    color: #f9faf8
 }
