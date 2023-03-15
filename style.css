@@ -36,7 +36,67 @@ ul {
 }
 
 a {
-    
     text-decoration: none; /* this removes the line under our links */
     color: #f9faf8
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 150px;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.topleft {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero.main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero.secondary {
+    font-size: 18px;
+    color:#e5e7eb;
+    display: flex;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button1
+    {
+        border-radius: 12px;
+    }
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+img {
+    height: 250px;
+    width: 500px;
+}
+
+.mainpicture {
+    display:flex
 }
