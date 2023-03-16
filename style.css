@@ -8,6 +8,7 @@ body {
 .header {
     background: #1f2937;
     display: flex;
+    
 }
 
 .logo {
@@ -49,6 +50,7 @@ a {
     gap: 50px;
     margin-top: 50px;
     justify-content: center;
+    height: 400px;
 }
 
 .topleft {
@@ -109,6 +111,7 @@ img {
     margin-top: 50px;
     padding: 50px;
     width: auto;
+    height: 400px;
 }
 
 .middletitle {
@@ -157,6 +160,7 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 400px;
     
 }
 
@@ -185,6 +189,7 @@ img {
     align-items: center;
     justify-content: center;
     padding: 30px;
+    height: 400px;
 }
 
 .container2 {
