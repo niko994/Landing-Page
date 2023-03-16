@@ -106,8 +106,8 @@ img {
 
 .middle {
     background: #f9faf8;
-    margin-top: 100px;
-    padding: 80px;
+    margin-top: 50px;
+    padding: 50px;
     width: auto;
 }
 
@@ -213,4 +213,12 @@ img {
     border: 2px solid #f9faf8;
     border-radius: 12px;
     cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
 }
