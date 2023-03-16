@@ -47,6 +47,7 @@ a {
     margin-right: 150px;
     gap: 50px;
     margin-top: 50px;
+    justify-content: center;
 }
 
 .topleft {
@@ -105,6 +106,7 @@ img {
     background: #f9faf8;
     margin-top: 100px;
     padding: 80px;
+    width: auto;
 }
 
 .middletitle {
@@ -125,11 +127,14 @@ img {
 
 .services {
     height: 150px;
-    width: 160px;
+    width: 150px;
     border-radius: 25%;
     display: flex;
-    margin-left: 70px;
-    margin-right: 70px;
+    /*margin-left: 80px;
+    margin-right: 80px;*/
+    margin-left:auto;
+    margin-right:auto;
+    
 }
 
 .middletext {
@@ -137,3 +142,8 @@ img {
     text-align: center;
 }
 
+.box1.box2.box3.box4 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
