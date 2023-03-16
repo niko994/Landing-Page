@@ -27,6 +27,7 @@ ul {
     gap: 30px;
     color: #f9faf8;
     align-items: center;
+    cursor: pointer;
 }
 
 .upleft {
@@ -80,6 +81,7 @@ button {
     display: flex;
     font-size: 16px;
     margin: 4px 2px;
+    cursor: pointer;
 }
 
 .button1
@@ -123,6 +125,8 @@ img {
     margin-left: 200px;
     align-items: center;
     flex-wrap: nowrap;
+    
+
 }
 
 .services {
@@ -132,6 +136,7 @@ img {
     display: flex;
     margin-left:auto;
     margin-right:auto;
+    cursor: pointer;
     
 }
 
@@ -172,4 +177,40 @@ img {
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
+}
+
+.botton {
+    background: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 15px;
+    border-radius: 12px;
+    gap: 10px;
+    width: 800px;
+}
+
+.bottontext {
+    color: #e5e7eb;
+    margin-right: 30px;
+}
+
+.button2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    border: 2px solid #f9faf8;
+    border-radius: 12px;
+    cursor: pointer;
 }
